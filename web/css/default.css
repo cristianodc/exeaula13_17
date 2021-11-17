@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 de nov de 2021, 16:47:55
+    Author     : Alfamidia
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+#geral{
+    width:  700px;
+    margin: auto;
+}
+#header{
+background-image: url(../img/header.jpg);
+    height: 130px;
+}
+
+#menu{
+    padding: 10px;
+    height: 20px;
+    text-align: center;
+    background-color: #86a852
+    
+}
+menu a{
+    color: #ffffff;
+    padding: 5xp;
+    text-decoration: none;
+}
+
+menu a:hover{
+    
+    color: #000000;
+    background-color: #eeeeee;
+}
+#content{
+	padding: 10px;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+#footer{
+	height: 20px;
+	padding: 10px;
+	text-align: right;
+	background-color: #86A852;
+	font-size: 10px;
+}
+
+/* formata��o para outras tags do HTML */
+html{
+	overflow-y: scroll;
+	background-color: #333333;
+}
+h1{
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+h4{
+    text-align: center;
+}
